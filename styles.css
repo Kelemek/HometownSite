@@ -1,0 +1,147 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #1D3557;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Playwrite HU", cursive;
+}
+
+#hero_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 350px;
+    width: 720px;
+    margin-left: auto;  
+    margin-right: auto;
+    background-image: url('images/sunflowers.jpg');
+    background-size: cover;
+}
+
+#hero_div h1 {
+    background-color: #1D3557;
+    color: white;
+    font-weight: 700;
+    padding: 5px 12px;
+    margin-left: auto;  
+    margin-right: auto;
+    margin-bottom: 11px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+#hero_div h2 {
+    background-color: rgba(69, 123, 157, 0.8);
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+    padding: 8px 30px;
+    margin-left: auto;  
+    margin-right: auto;
+    margin-top: 0px;
+    width: 300px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 4px #1D3557;
+
+}
+
+#activities_div {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    height: 350px;
+    width: 720px;    
+    margin-left: auto;  
+    margin-right: auto;
+    background-color: #F1FAEE;
+}
+#activities_header {
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.parks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.park {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.park h3 {
+    margin: 5px 0; 
+    font-size: large;
+    font-weight: bold;
+} 
+
+.park p {
+    margin: 5px 0; 
+    font-size:small;
+}
+
+.parks img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#guide_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 720px;
+    margin-left: auto;  
+    margin-right: auto;
+}
+
+#guide_card {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 250px;
+    background-color: #457B9D;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+
+}
+#guide_image {
+    width: 200px;
+    align-content: center;
+}
+
+#guide_image img {
+    width: 180px;
+    object-fit: cover;
+    margin-left: auto;  
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#guide_text {
+    width: 200px;
+    font-size: small;
+    align-content: center;
+    color: white;
+    text-shadow: 1px 1px 4px #1D3557;
+}
+
+
+
+
